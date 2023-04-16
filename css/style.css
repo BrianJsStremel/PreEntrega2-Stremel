@@ -1,0 +1,514 @@
+.resolucion {
+    width: 99%;
+    text-align: center;
+}
+
+
+/**Movil**/
+
+@media (max-width: 767px) {
+    .desktop {
+        display: none;
+    }
+    .tablet {
+        display: none;
+    }
+}
+
+
+/**Tablet**/
+
+@media (min-width: 768px) and (max-width: 990px) {
+    .desktop {
+        display: none;
+    }
+    .movil {
+        display: none;
+    }
+}
+
+
+/**Escritorio**/
+
+@media (min-width: 991px) {
+    .tablet {
+        display: none;
+    }
+    .movil {
+        display: none;
+    }
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%
+}
+
+
+
+
+body {
+
+    background-image: url("../img/farmaciafondo.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 20vh;
+    display:inline;
+
+
+
+}
+
+.logo2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column-reverse;
+    margin: auto;
+    width: 50%;
+
+
+
+}
+
+
+
+.logo {
+    width: 200px;
+    height: 150px;
+    margin-right: -400px;
+    display: grid;
+    align-items: center;
+    border: 5px groove orange;
+    border-radius: 20px;
+    margin: 0px;
+    padding: 0%;
+
+}
+
+
+
+
+.logoventa {
+    width: 500px;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    margin-left: 600px;
+    border: 10px solid orange;
+    margin-top: 50px;
+    border-radius: 60px;
+
+}
+
+
+
+.nav-link {
+
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 120px;
+    font-weight: 800;
+    color: orange;
+    font-size: 20px;
+    background-color: black;
+    border: 2px solid orange;
+    display: inline-block;
+
+}
+
+a.nav-link {
+
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 120px;
+    font-weight: 800;
+    color: orange;
+    font-size: 20px;
+    background-color: black;
+    border: 2px solid orange;
+    display: inline-block;
+
+}
+
+.nav-link:hover {
+    background-color: rgb(254, 251, 251);
+    transform: scale(1.3);
+
+
+}
+
+
+
+
+header {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+h1 {
+
+    font-family: 'Creepster', cursive;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-around;
+    font-size: 200%;
+    background-color: black;
+    border: 4px solid orange;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: orange;
+    padding: 5px;
+    margin-top: 10px;
+    background-image: linear-gradient(to top, #b224ef 0%, #7579ff 100%);
+
+
+
+
+
+}
+
+P {
+    color: orange;
+    margin-left: 500px;
+    background-color: rgb(3, 3, 3);
+    font-size: 25px;
+    margin: 0;
+
+
+}
+
+h3 {
+    color: rgb(253, 253, 251);
+    margin-left: 500px;
+    background-color: rgb(3, 3, 3);
+    font-size: 25px;
+    margin: 0;
+
+
+}
+
+.logoinsta {
+    width: 80px;
+    height: 80px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.logoyou {
+    width: 80px;
+    height: 80px;
+
+}
+
+
+.logoface {
+    width: 80px;
+    height: 80px;
+    margin-top: 100px;
+
+}
+
+h4 {
+    font-weight: 800;
+    color: orange;
+    font-size: 20px;
+    background-color: black;
+    border: 2px solid orange;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+
+/* div { 
+    width: 40px;
+    height: 40px;
+    margin-left: -400px;
+    padding: 2%;
+
+ } */
+
+h5 {
+
+    font-weight: 800;
+    color: orange;
+    font-size: 20px;
+    background-color: black;
+    border: 2px solid orange;
+    display: flex;
+    padding: 10px;
+    margin-left: 850px;
+    align-items: flex-start 600px;
+
+
+
+}
+
+/*.pventas {
+    display: grid;
+    margin-left: 400px;
+    font-weight: 800px;
+    color: orange;
+    font-size: 20px;
+    background-color: black;
+    border: 2px solid orange;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    grid-template-columns: 1fr 1fr;
+
+
+}
+
+.ventass { 
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.ventass img { 
+    display: grid;
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+    flex-wrap: wrap;
+    text-align: center;
+    grid-template-columns: 100px;*/
+
+
+
+/* .ventas { 
+    display: grid;
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+    flex-wrap: wrap;
+    text-align: center;
+    grid-template-columns: 100px;
+}*/
+/*.vent1{
+ width: 200px;
+ margin-right: 500px;
+}
+
+.vent2{
+    width: 200px;
+    margin-right: 500px;
+    
+}
+
+.vent3{
+    width: 200px;
+    margin-right: 500px;
+    
+}
+
+.vent4{
+    width: 200px;
+    margin-right: 500px;
+    
+}
+
+*/
+label {
+    color: orange;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    background-color: black;
+    border: 1px solid orange;
+    padding: 10px 20px;
+}
+
+input,
+textarea {
+    padding: 25px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+    border: 2px solid orange;
+    color: rgb(8, 5, 1);
+    outline: none;
+}
+
+form {
+    margin-top: 100px;
+    box-sizing: border-box;
+    padding: 50px 20px;
+}
+
+form-text {
+    margin-top: 100px;
+    margin-left: 200px;
+
+    width: 50px;
+    padding: 50px 20px;
+}
+
+
+hr {
+    padding: 5px;
+    color: rgb(10, 7, 0);
+    background-color: black;
+    background: orange;
+    height: 10px;
+    border: 3px solid black;
+    margin-top: 50px;
+}
+
+.imagen00 {
+
+
+    width: 500px;
+    height: 400px;
+    padding: 10px;
+    background-position: center center;
+    background-size: cover;
+    border: 5px groove orange;
+    border-radius: 20px;
+    background-color: aliceblue;
+
+
+}
+
+.flex-redes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    align-content: center;
+    align-items: flex-end;
+
+
+
+
+}
+.logoface:hover {
+    background-color: rgb(254, 251, 251);
+    transform: scale(1.5);
+    border: 5px groove orange;
+    border-radius: 20px;
+}
+
+.logoyou:hover {
+    background-color: rgb(254, 251, 251);
+    transform: scale(1.5);
+    border: 5px groove orange;
+    border-radius: 20px;
+}
+
+.logoinsta:hover {
+    background-color: rgb(254, 251, 251);
+    transform: scale(1.5);
+    border: 5px groove orange;
+    border-radius: 20px;
+}
+
+
+
+.video {
+    display: flex;
+    padding: 25%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    height: 40px;
+
+}
+
+
+
+
+.map {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.nuestrahistoria {
+    color: orange;
+    margin-left: 500px;
+    background-color: rgb(3, 3, 3);
+    font-size: 25px;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+.formulario {
+    flex-wrap: wrap;
+    background-color: black;
+    padding: 20px;
+}
+
+
+
+.contenedor-items {
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr;
+}
+
+.columnasx2 {
+    padding: 2%;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 10px;
+    font-weight: 800;
+    color: rgb(14, 10, 3);
+    font-size: 20px;
+    background-color: rgb(248, 246, 246);
+    border: 2px solid orange; 
+    margin-top: 1rem;
+
+
+}
+
+footer {
+    min-height: 20vh;
+
+}
+
+
+div img {
+    height: 200px;
+}
+
+div h2 {
+    background-color: rgb(160, 114, 14);
+    text-align: center;
+
+}
+
+.main img {
+    display: grid;
+}
+
+button:hover{
+    background-color: #f00909;
+    color: white;
+}
+
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
